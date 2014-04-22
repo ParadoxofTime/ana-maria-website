@@ -17,7 +17,8 @@
 */
 @charset "UTF-8";
 
-@import "modular-scale";
+@import "extensions/modular-scale/stylesheets/modular-scale";
+@import "extensions/sassy-math/stylesheets/math";
 @import "var/settings";
 @import "var/lists";
 @import "var/icons/entypo";
