@@ -45,7 +45,7 @@ html { font-size: 16px; line-height: 1.625em; }
 
 * { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
 
-body { font-family: "Dosis"; font-weight: 400; color: #555555; position: relative; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+body { font-family: "Dosis"; font-weight: 400; color: #dff0f5; position: relative; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
 @media only screen and (max-width: 767px) { body { -webkit-text-size-adjust: none; -ms-text-size-adjust: none; width: 100%; min-width: 0; } }
 
 html, body { height: 100%; }
@@ -638,7 +638,7 @@ html, body { height: 100%; }
 @font-face { font-family: "entypo"; font-style: normal; font-weight: 400; src: url(../fonts/icons/entypo.eot); src: url("../fonts/icons/entypo.eot?#iefix") format("ie9-skip-eot"), url("../fonts/icons/entypo.woff") format("woff"), url("../fonts/icons/entypo.ttf") format("truetype"); }
 
 /* Typography */
-h1, h2, h3, h4, h5, h6 { font-family: "Dosis"; font-weight: Normal; color: #444444; text-rendering: optimizeLegibility; padding-top: 0.273em; line-height: 1.15538em; padding-bottom: 0.273em; }
+h1, h2, h3, h4, h5, h6 { font-family: "Dosis"; font-weight: Normal; color: #dff0f5; text-rendering: optimizeLegibility; padding-top: 0.273em; line-height: 1.15538em; padding-bottom: 0.273em; }
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { color: #d04526; }
 
 @media only screen and (max-width: 767px) { h1, h2, h3, h4, h5, h6 { word-wrap: break-word; } }
@@ -704,10 +704,10 @@ h1 small, h2 small, h3 small, h4 small, h5 small { color: #777; }
 /*  Blockquotes  */
 blockquote { line-height: 20px; color: #777; margin: 0 0 18px; padding: 9px 20px 0 19px; border-left: 5px solid #cccccc; }
 blockquote p { line-height: 20px; color: #777; }
-blockquote cite { display: block; font-size: 12px; font-size: 1.2rem; color: #555555; }
+blockquote cite { display: block; font-size: 12px; font-size: 1.2rem; color: #dff0f5; }
 blockquote cite:before { content: "\2014 \0020"; }
-blockquote cite a { color: #555555; }
-blockquote cite a:visited { color: #555555; }
+blockquote cite a { color: #dff0f5; }
+blockquote cite a:visited { color: #dff0f5; }
 
 hr { border: 1px solid #cccccc; clear: both; margin: 16px 0 18px; height: 0; }
 
@@ -718,8 +718,8 @@ abbr { text-transform: none; }
 /** Print styles.  Inlined to avoid required HTTP connection: www.phpied.com/delay-loading-your-print-css/ Credit to Paul Irish and HTML5 Boilerplate (html5boilerplate.com) */
 @media print { * { background: transparent !important; color: black !important; text-shadow: none !important; filter: none !important; -ms-filter: none !important; }
   /* Black prints faster: sanbeiji.com/archives/953 */
-  p a { color: #555555 !important; text-decoration: underline; }
-  p a:visited { color: #555555 !important; text-decoration: underline; }
+  p a { color: #dff0f5 !important; text-decoration: underline; }
+  p a:visited { color: #dff0f5 !important; text-decoration: underline; }
   p a[href]:after { content: " (" attr(href) ")"; }
   abbr[title]:after { content: " (" attr(title) ")"; }
   a[href^="javascript:"]:after, a[href^="#"]:after { content: ""; }
@@ -1238,15 +1238,15 @@ img { -ms-interpolation-mode: bicubic; }
   [class*="column"]:after { display: table; clear: both; }
   [class^="push_"], [class*="push_"], [class^="pull_"], [class*="pull_"] { margin-left: 0 !important; } }
 /* Navigation (with dropdowns) */
-.navbar { width: 100%; min-height: 60px; display: block; margin-bottom: 20px; background: #062c38; position: relative; }
+.navbar { width: 100%; min-height: 60px; display: block; margin-bottom: 20px; background: #063237; position: relative; }
 @media only screen and (max-width: 767px) { .navbar { border: none; }
   .navbar .column, .navbar .columns { min-height: 0; } }
 .navbar.fixed { position: fixed; z-index: 99999; }
 .navbar.pinned { position: absolute; }
 .navbar a.toggle { display: none; }
-@media only screen and (max-width: 767px) { .navbar a.toggle { top: 18%; right: 4%; width: 46px; position: absolute; text-align: center; display: inline-block; color: #bdfffb; background: #062c38; height: 40px; line-height: 38px; -webkit-border-radius: 4px; -moz-border-radius: 4px; -ms-border-radius: 4px; -o-border-radius: 4px; border-radius: 4px; font-size: 30px; font-size: 1.875rem; }
-  .navbar a.toggle:hover { background: #083e4f; }
-  .navbar a.toggle:active, .navbar a.toggle.active { background: #041a21; } }
+@media only screen and (max-width: 767px) { .navbar a.toggle { top: 18%; right: 4%; width: 46px; position: absolute; text-align: center; display: inline-block; color: #bdfffb; background: #063237; height: 40px; line-height: 38px; -webkit-border-radius: 4px; -moz-border-radius: 4px; -ms-border-radius: 4px; -o-border-radius: 4px; border-radius: 4px; font-size: 30px; font-size: 1.875rem; }
+  .navbar a.toggle:hover { background: #09474e; }
+  .navbar a.toggle:active, .navbar a.toggle.active { background: #031d20; } }
 
 .navbar .logo { display: inline-block; margin: 0 2.12766% 0 0; padding: 0; height: 60px; line-height: 58px; }
 .navbar .logo a { display: block; padding: 0; overflow: hidden; height: 60px; line-height: 58px; }
@@ -1256,7 +1256,7 @@ img { -ms-interpolation-mode: bicubic; }
   .navbar .logo a img { width: auto; height: auto; max-width: 100%; } }
 
 .navbar ul { display: table; vertical-align: middle; margin: 0; float: none; }
-@media only screen and (max-width: 767px) { .navbar ul { position: absolute; display: block; width: 100% !important; height: 0; max-height: 0; top: 60px; left: 0; overflow: hidden; text-align: center; background: #041a21; }
+@media only screen and (max-width: 767px) { .navbar ul { position: absolute; display: block; width: 100% !important; height: 0; max-height: 0; top: 60px; left: 0; overflow: hidden; text-align: center; background: #031d20; }
   .navbar ul.active { height: auto; max-height: 600px; z-index: 999998; -webkit-transition-duration: 0.5s; -moz-transition-duration: 0.5s; -o-transition-duration: 0.5s; transition-duration: 0.5s; -webkit-box-shadow: 0 2px 2px black; -moz-box-shadow: 0 2px 2px black; box-shadow: 0 2px 2px black; } }
 .navbar ul li { display: table-cell; text-align: center; padding-bottom: 0; margin: 0; height: 60px; line-height: 58px; }
 @media only screen and (max-width: 767px) { .navbar ul li { display: block; position: relative; min-height: 50px; max-height: 320px; height: auto; width: 100%; border-right: 0 !important; -webkit-box-shadow: none; -moz-box-shadow: none; box-shadow: none; -webkit-transition-duration: 0.5s; -moz-transition-duration: 0.5s; -o-transition-duration: 0.5s; transition-duration: 0.5s; } }
@@ -1268,10 +1268,10 @@ img { -ms-interpolation-mode: bicubic; }
 .navbar ul li.field input.search { background: black; border: none; color: #f2f2f2; }
 .navbar ul li .dropdown { width: auto; min-width: 0; max-width: 320px; height: 0; position: absolute; background: #fafafa; overflow: hidden; z-index: 999; }
 @media only screen and (max-width: 767px) { .navbar ul li .dropdown { width: 100%; max-width: 100%; position: relative; -webkit-box-shadow: none !important; -moz-box-shadow: none !important; box-shadow: none !important; }
-  .navbar ul li.active .dropdown { border-bottom: 1px solid #01080a; }
-  .navbar ul li.active .dropdown ul { position: relative; top: 0; background: #020f13; min-height: 50px; max-height: 250px; height: auto; overflow: auto; -webkit-box-shadow: none !important; -moz-box-shadow: none !important; box-shadow: none !important; }
-  .navbar ul li.active .dropdown ul li { min-height: 50px; border-bottom: #041a21; }
-  .navbar ul li.active .dropdown ul li a { color: white; border-bottom: 1px solid #01080a; }
+  .navbar ul li.active .dropdown { border-bottom: 1px solid #010809; }
+  .navbar ul li.active .dropdown ul { position: relative; top: 0; background: #021112; min-height: 50px; max-height: 250px; height: auto; overflow: auto; -webkit-box-shadow: none !important; -moz-box-shadow: none !important; box-shadow: none !important; }
+  .navbar ul li.active .dropdown ul li { min-height: 50px; border-bottom: #031d20; }
+  .navbar ul li.active .dropdown ul li a { color: white; border-bottom: 1px solid #010809; }
   .navbar ul li.active .dropdown ul li a:hover { color: #18c2b7; } }
 
 @media only screen and (min-width: 768px) and (max-width: 939px) { .navbar > ul > li > .btn a { padding: 0 10px 0 10px !important; }
@@ -1280,22 +1280,22 @@ img { -ms-interpolation-mode: bicubic; }
 .navcontain { height: 80px; }
 @media only screen and (max-width: 768px) { .navcontain { height: auto; } }
 
-.pretty.navbar { background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #107494), color-stop(100%, #01080a)); background-image: -webkit-linear-gradient(#107494, #01080a); background-image: -moz-linear-gradient(#107494, #01080a); background-image: -o-linear-gradient(#107494, #01080a); background-image: linear-gradient(#107494, #01080a); -webkit-box-shadow: inset 0 1px 1px #107494, 0 1px 2px rgba(0, 0, 0, 0.8) !important; -moz-box-shadow: inset 0 1px 1px #107494, 0 1px 2px rgba(0, 0, 0, 0.8) !important; box-shadow: inset 0 1px 1px #107494, 0 1px 2px rgba(0, 0, 0, 0.8) !important; /* Remove this line if you dont want a dropshadow on your navigation*/ }
-@media only screen and (max-width: 767px) { .pretty.navbar a.toggle { border: 1px solid #041a21; background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #107494), color-stop(100%, #062c38)); background-image: -webkit-linear-gradient(#107494, #062c38); background-image: -moz-linear-gradient(#107494, #062c38); background-image: -o-linear-gradient(#107494, #062c38); background-image: linear-gradient(#107494, #062c38); -webkit-box-shadow: inset 0 1px 2px #1286ab, inset 0 -1px 1px #083e4f, inset 1px 0 1px #083e4f, inset -1px 0 1px #083e4f, 0 1px 1px #0b5066; -moz-box-shadow: inset 0 1px 2px #1286ab, inset 0 -1px 1px #083e4f, inset 1px 0 1px #083e4f, inset -1px 0 1px #083e4f, 0 1px 1px #0b5066; box-shadow: inset 0 1px 2px #1286ab, inset 0 -1px 1px #083e4f, inset 1px 0 1px #083e4f, inset -1px 0 1px #083e4f, 0 1px 1px #0b5066; }
+.pretty.navbar { background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #108693), color-stop(100%, #010809)); background-image: -webkit-linear-gradient(#108693, #010809); background-image: -moz-linear-gradient(#108693, #010809); background-image: -o-linear-gradient(#108693, #010809); background-image: linear-gradient(#108693, #010809); -webkit-box-shadow: inset 0 1px 1px #108693, 0 1px 2px rgba(0, 0, 0, 0.8) !important; -moz-box-shadow: inset 0 1px 1px #108693, 0 1px 2px rgba(0, 0, 0, 0.8) !important; box-shadow: inset 0 1px 1px #108693, 0 1px 2px rgba(0, 0, 0, 0.8) !important; /* Remove this line if you dont want a dropshadow on your navigation*/ }
+@media only screen and (max-width: 767px) { .pretty.navbar a.toggle { border: 1px solid #031d20; background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #108693), color-stop(100%, #063237)); background-image: -webkit-linear-gradient(#108693, #063237); background-image: -moz-linear-gradient(#108693, #063237); background-image: -o-linear-gradient(#108693, #063237); background-image: linear-gradient(#108693, #063237); -webkit-box-shadow: inset 0 1px 2px #139baa, inset 0 -1px 1px #09474e, inset 1px 0 1px #09474e, inset -1px 0 1px #09474e, 0 1px 1px #0b5c65; -moz-box-shadow: inset 0 1px 2px #139baa, inset 0 -1px 1px #09474e, inset 1px 0 1px #09474e, inset -1px 0 1px #09474e, 0 1px 1px #0b5c65; box-shadow: inset 0 1px 2px #139baa, inset 0 -1px 1px #09474e, inset 1px 0 1px #09474e, inset -1px 0 1px #09474e, 0 1px 1px #0b5c65; }
   .pretty.navbar a.toggle i { text-shadow: 0 1px 1px black; }
-  .pretty.navbar a.toggle:hover { background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #1286ab), color-stop(100%, #083e4f)); background-image: -webkit-linear-gradient(#1286ab, #083e4f); background-image: -moz-linear-gradient(#1286ab, #083e4f); background-image: -o-linear-gradient(#1286ab, #083e4f); background-image: linear-gradient(#1286ab, #083e4f); }
-  .pretty.navbar a.toggle:active, .pretty.navbar a.toggle.active { background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #041a21), color-stop(100%, #062c38)); background-image: -webkit-linear-gradient(#041a21, #062c38); background-image: -moz-linear-gradient(#041a21, #062c38); background-image: -o-linear-gradient(#041a21, #062c38); background-image: linear-gradient(#041a21, #062c38); -webkit-box-shadow: 0 1px 1px #0b5066; -moz-box-shadow: 0 1px 1px #0b5066; box-shadow: 0 1px 1px #0b5066; } }
+  .pretty.navbar a.toggle:hover { background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #139baa), color-stop(100%, #09474e)); background-image: -webkit-linear-gradient(#139baa, #09474e); background-image: -moz-linear-gradient(#139baa, #09474e); background-image: -o-linear-gradient(#139baa, #09474e); background-image: linear-gradient(#139baa, #09474e); }
+  .pretty.navbar a.toggle:active, .pretty.navbar a.toggle.active { background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #031d20), color-stop(100%, #063237)); background-image: -webkit-linear-gradient(#031d20, #063237); background-image: -moz-linear-gradient(#031d20, #063237); background-image: -o-linear-gradient(#031d20, #063237); background-image: linear-gradient(#031d20, #063237); -webkit-box-shadow: 0 1px 1px #0b5c65; -moz-box-shadow: 0 1px 1px #0b5c65; box-shadow: 0 1px 1px #0b5c65; } }
 .pretty.navbar.row { -webkit-border-radius: 4px; -moz-border-radius: 4px; -ms-border-radius: 4px; -o-border-radius: 4px; border-radius: 4px; }
 @media only screen and (max-width: 767px) { .pretty.navbar.row { -webkit-border-radius: 0; -moz-border-radius: 0; -ms-border-radius: 0; -o-border-radius: 0; border-radius: 0; } }
-.pretty.navbar ul li.field input.search { background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #000000), color-stop(100%, #073341)); background-image: -webkit-linear-gradient(#000000, #073341); background-image: -moz-linear-gradient(#000000, #073341); background-image: -o-linear-gradient(#000000, #073341); background-image: linear-gradient(#000000, #073341); border: none; -webkit-box-shadow: 0 1px 2px #1286ab !important; -moz-box-shadow: 0 1px 2px #1286ab !important; box-shadow: 0 1px 2px #1286ab !important; /* Remove this line if you dont want a dropshadow on your navigation*/ }
+.pretty.navbar ul li.field input.search { background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #000000), color-stop(100%, #073a40)); background-image: -webkit-linear-gradient(#000000, #073a40); background-image: -moz-linear-gradient(#000000, #073a40); background-image: -o-linear-gradient(#000000, #073a40); background-image: linear-gradient(#000000, #073a40); border: none; -webkit-box-shadow: 0 1px 2px #139baa !important; -moz-box-shadow: 0 1px 2px #139baa !important; box-shadow: 0 1px 2px #139baa !important; /* Remove this line if you dont want a dropshadow on your navigation*/ }
 .pretty.navbar > ul > li:first-child, .pretty.navbar .pretty.navbar > ul > li:first-child a:hover { -webkit-box-shadow: none; -moz-box-shadow: none; box-shadow: none; }
 
 .navbar li .dropdown { width: auto; min-width: 0; max-width: 320px; height: 0; position: absolute; background: #fafafa; overflow: hidden; z-index: 999; }
 @media only screen and (max-width: 767px) { .navbar li .dropdown .dropdown { width: 100%; max-width: 100%; position: relative; -webkit-box-shadow: none !important; -moz-box-shadow: none !important; box-shadow: none !important; }
-  .navbar li .dropdown.active .dropdown { border-bottom: 1px solid #01080a; }
-  .navbar li .dropdown.active .dropdown ul { position: relative; top: 0; background: #020f13; min-height: 50px; max-height: 250px; height: auto; overflow: auto; -webkit-box-shadow: none !important; -moz-box-shadow: none !important; box-shadow: none !important; }
-  .navbar li .dropdown.active .dropdown ul li { min-height: 50px; border-bottom: #041a21; }
-  .navbar li .dropdown.active .dropdown ul li a { color: white; border-bottom: 1px solid #01080a; }
+  .navbar li .dropdown.active .dropdown { border-bottom: 1px solid #010809; }
+  .navbar li .dropdown.active .dropdown ul { position: relative; top: 0; background: #021112; min-height: 50px; max-height: 250px; height: auto; overflow: auto; -webkit-box-shadow: none !important; -moz-box-shadow: none !important; box-shadow: none !important; }
+  .navbar li .dropdown.active .dropdown ul li { min-height: 50px; border-bottom: #031d20; }
+  .navbar li .dropdown.active .dropdown ul li a { color: white; border-bottom: 1px solid #010809; }
   .navbar li .dropdown.active .dropdown ul li a:hover { color: #18c2b7; } }
 
 .navbar li .dropdown ul { margin: 0; display: block; }
@@ -1308,12 +1308,12 @@ img { -ms-interpolation-mode: bicubic; }
 
 .gumby-no-touch .navbar ul li:hover > a, .gumby-touch .navbar ul li.active > a { position: relative; background: #868d92; z-index: 1000; }
 
-.gumby-no-touch .navbar ul li:hover .dropdown, .gumby-touch .navbar ul li.active .dropdown { min-height: 50px; max-height: 561px; overflow: visible; height: auto; width: 100%; padding: 0; border-top: 1px solid #041a21; -webkit-box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.3); -moz-box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.3); box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.3); }
+.gumby-no-touch .navbar ul li:hover .dropdown, .gumby-touch .navbar ul li.active .dropdown { min-height: 50px; max-height: 561px; overflow: visible; height: auto; width: 100%; padding: 0; border-top: 1px solid #031d20; -webkit-box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.3); -moz-box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.3); box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.3); }
 
 .gumby-no-touch .navbar ul li:hover .dropdown ul { position: relative; top: 0; min-height: 50px; max-height: 250px; height: auto; -webkit-box-shadow: none !important; -moz-box-shadow: none !important; box-shadow: none !important; -webkit-transition-duration: 0.5s; -moz-transition-duration: 0.5s; -o-transition-duration: 0.5s; transition-duration: 0.5s; }
-@media only screen and (max-width: 767px) { .gumby-no-touch .navbar ul li:hover .dropdown ul { overflow: auto; background: #020f13; }
-  .gumby-no-touch .navbar ul li:hover .dropdown ul li { border-bottom: #041a21; }
-  .gumby-no-touch .navbar ul li:hover .dropdown ul li a { color: white; border-bottom: 1px solid #01080a; }
+@media only screen and (max-width: 767px) { .gumby-no-touch .navbar ul li:hover .dropdown ul { overflow: auto; background: #021112; }
+  .gumby-no-touch .navbar ul li:hover .dropdown ul li { border-bottom: #031d20; }
+  .gumby-no-touch .navbar ul li:hover .dropdown ul li a { color: white; border-bottom: 1px solid #010809; }
   .gumby-no-touch .navbar ul li:hover .dropdown ul li a:hover { color: #18c2b7; } }
 
 .gumby-no-touch .navbar li .dropdown ul > li:hover .dropdown, .gumby-touch .navbar li .dropdown ul > li.active .dropdown { border-top: none; display: block; position: absolute; z-index: 9999; left: 100%; top: 0; margin-top: 0; }
@@ -1329,7 +1329,7 @@ img { -ms-interpolation-mode: bicubic; }
 .subnav li:first-child, .subnav dt:first-child, .subnav dd:first-child { margin-left: 0; }
 .subnav dt { color: #f2f2f2; font-weight: normal; }
 .subnav li a, .subnav dd a { color: #bdfffb; font-size: 15px; text-decoration: none; -webkit-border-radius: 4px; -moz-border-radius: 4px; -ms-border-radius: 4px; -o-border-radius: 4px; border-radius: 4px; }
-.subnav li.active a, .subnav dd.active a { background: #062c38; padding: 5px 9px; text-shadow: 0 1px 1px #062c38; }
+.subnav li.active a, .subnav dd.active a { background: #063237; padding: 5px 9px; text-shadow: 0 1px 1px #063237; }
 
 /* Buttons */
 .btn, .skiplink { display: inline-block; width: auto; background: #f2f2f2; -webkit-appearance: none; font-family: "Dosis"; font-weight: 600; padding: 0 !important; text-align: center; }
@@ -1491,7 +1491,7 @@ label + .xnarrow:last-child, label + .narrow:last-child, label + .normal:last-ch
 
 .prepend .btn a, .prepend .btn input, .prepend .btn button, .append .btn a, .append .btn input, .append .btn button { padding: 0 12px; }
 
-.prepend .adjoined, .append .adjoined { padding: 0 10px 0 10px; background: #f2f2f2; border: 1px solid #d8d8d8; font-family: "Dosis"; font-weight: 600; color: #555555; font-size: 16px; font-size: 1rem; height: 36px; line-height: 34px; }
+.prepend .adjoined, .append .adjoined { padding: 0 10px 0 10px; background: #f2f2f2; border: 1px solid #d8d8d8; font-family: "Dosis"; font-weight: 600; color: #dff0f5; font-size: 16px; font-size: 1rem; height: 36px; line-height: 34px; }
 
 .prepend .adjoined, .prepend .btn { margin-right: -1px; }
 
@@ -1540,7 +1540,7 @@ label + .xnarrow:last-child, label + .narrow:last-child, label + .normal:last-ch
 .js .field .radio.danger span, .js .field .checkbox.danger span { border-color: #ff5c5c; color: #ff5c5c; background: white; -webkit-transition-duration: 0.2s; -moz-transition-duration: 0.2s; -o-transition-duration: 0.2s; transition-duration: 0.2s; }
 .js .field .radio.warning, .js .field .checkbox.warning { color: #ffffde; }
 .js .field .radio.warning span, .js .field .checkbox.warning span { border-color: #ffffde; color: #ffffde; background: white; -webkit-transition-duration: 0.2s; -moz-transition-duration: 0.2s; -o-transition-duration: 0.2s; transition-duration: 0.2s; }
-.js .field .radio.success, .js .field .checkbox.success { color: #ebc052; color: #555555; }
+.js .field .radio.success, .js .field .checkbox.success { color: #ebc052; color: #dff0f5; }
 .js .field .radio.success i, .js .field .checkbox.success i { color: #ebc052; }
 .js .field .radio.success span, .js .field .checkbox.success span { border-color: #ebc052; color: #ebc052; background: #fdfaf2; -webkit-transition-duration: 0.2s; -moz-transition-duration: 0.2s; -o-transition-duration: 0.2s; transition-duration: 0.2s; }
 .js .field .radio.checked i, .js .field .checkbox.checked i { position: absolute; top: -1px; left: -8px; line-height: 16px; }
@@ -1553,9 +1553,9 @@ label + .xnarrow:last-child, label + .narrow:last-child, label + .normal:last-ch
 
 /* Form Picker Element (<select>) */
 .picker { position: relative; width: auto; display: inline-block; margin: 0 0 2px 1.2%; overflow: hidden; border: 1px solid #e5e5e5; -webkit-border-radius: 4px; -moz-border-radius: 4px; -ms-border-radius: 4px; -o-border-radius: 4px; border-radius: 4px; font-family: "Dosis"; font-weight: 600; height: auto; background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(100%, #f2f2f2)); background-image: -webkit-linear-gradient(#ffffff, #f2f2f2); background-image: -moz-linear-gradient(#ffffff, #f2f2f2); background-image: -o-linear-gradient(#ffffff, #f2f2f2); background-image: linear-gradient(#ffffff, #f2f2f2); }
-.picker:after { content: "\25BE"; font-family: entypo; z-index: 0; position: absolute; right: 8%; top: 50%; margin-top: -12px; color: #555555; }
+.picker:after { content: "\25BE"; font-family: entypo; z-index: 0; position: absolute; right: 8%; top: 50%; margin-top: -12px; color: #dff0f5; }
 .picker:first-child { margin-left: 0; }
-.picker select { position: relative; display: block; min-width: 100%; width: 135%; height: 34px; padding: 6px 45px 6px 15px; color: #555555; border: none; background: transparent; outline: none; -webkit-appearance: none; z-index: 99; cursor: pointer; font-size: 16px; font-size: 1rem; }
+.picker select { position: relative; display: block; min-width: 100%; width: 135%; height: 34px; padding: 6px 45px 6px 15px; color: #dff0f5; border: none; background: transparent; outline: none; -webkit-appearance: none; z-index: 99; cursor: pointer; font-size: 16px; font-size: 1rem; }
 .picker select::-ms-expand { display: none; }
 
 /* Labels */
@@ -1571,7 +1571,7 @@ label + .xnarrow:last-child, label + .narrow:last-child, label + .normal:last-ch
 .badge.warning, .label.warning { background: #ffffde; border: 1px solid #ffffde; color: #ffff12; }
 .badge.warning a, .label.warning a { color: #ffff12; }
 .badge.success, .label.success { background: #ebc052; border: 1px solid #ebc052; }
-.badge.light, .label.light { background: #fff; color: #555555; border: 1px solid #f2f2f2; }
+.badge.light, .label.light { background: #fff; color: #dff0f5; border: 1px solid #f2f2f2; }
 .badge.light a, .label.light a { color: #18c2b7; }
 .badge.dark, .label.dark { background: #212121; border: 1px solid #212121; }
 
@@ -1594,7 +1594,7 @@ label + .xnarrow:last-child, label + .narrow:last-child, label + .normal:last-ch
 .tab-nav { margin: 0; padding: 0; border-bottom: 1px solid #e5e5e5; }
 .tab-nav > li { display: inline-block; width: auto; padding: 0; margin: 0 2.12766% 0 0; cursor: default; top: 1px; -webkit-box-shadow: 0 1px 0 white; -moz-box-shadow: 0 1px 0 white; box-shadow: 0 1px 0 white; }
 .tab-nav > li > li { display: inline-block; width: auto; padding: 0; margin: 0 2.12766% 0 0; cursor: default; top: 1px; -webkit-box-shadow: 0 1px 0 white; -moz-box-shadow: 0 1px 0 white; box-shadow: 0 1px 0 white; }
-.tab-nav > li > li > a { display: block; width: auto; padding: 0 16px; margin: 0; color: #555555; font-family: "Dosis"; font-weight: 600; border: 1px solid #e5e5e5; border-width: 1px 1px 0 1px; text-shadow: 0 1px 1px white; background: #f2f2f2; cursor: pointer; -webkit-border-radius: 4px 4px 0 0; -moz-border-radius: 4px 4px 0 0; -ms-border-radius: 4px 4px 0 0; -o-border-radius: 4px 4px 0 0; border-radius: 4px 4px 0 0; height: 42px; line-height: 40px; }
+.tab-nav > li > li > a { display: block; width: auto; padding: 0 16px; margin: 0; color: #dff0f5; font-family: "Dosis"; font-weight: 600; border: 1px solid #e5e5e5; border-width: 1px 1px 0 1px; text-shadow: 0 1px 1px white; background: #f2f2f2; cursor: pointer; -webkit-border-radius: 4px 4px 0 0; -moz-border-radius: 4px 4px 0 0; -ms-border-radius: 4px 4px 0 0; -o-border-radius: 4px 4px 0 0; border-radius: 4px 4px 0 0; height: 42px; line-height: 40px; }
 .tab-nav > li > li > a:hover { text-decoration: none; background: whitesmoke; }
 .tab-nav > li > li > a:active { background: #ededed; }
 .tab-nav > li > li.active > a { height: 43px; line-height: 41px; background: white; cursor: default; }
@@ -1602,7 +1602,7 @@ label + .xnarrow:last-child, label + .narrow:last-child, label + .normal:last-ch
 
 .tab-nav > li:last-child { margin-right: 0; }
 
-.tab-nav > li > a { display: block; width: auto; padding: 0 16px; margin: 0; color: #555555; font-family: "Dosis"; font-weight: 600; border: 1px solid #e5e5e5; border-width: 1px 1px 0 1px; text-shadow: 0 1px 1px white; background: #f2f2f2; cursor: pointer; -webkit-border-radius: 4px 4px 0 0; -moz-border-radius: 4px 4px 0 0; -ms-border-radius: 4px 4px 0 0; -o-border-radius: 4px 4px 0 0; border-radius: 4px 4px 0 0; height: 42px; line-height: 40px; }
+.tab-nav > li > a { display: block; width: auto; padding: 0 16px; margin: 0; color: #dff0f5; font-family: "Dosis"; font-weight: 600; border: 1px solid #e5e5e5; border-width: 1px 1px 0 1px; text-shadow: 0 1px 1px white; background: #f2f2f2; cursor: pointer; -webkit-border-radius: 4px 4px 0 0; -moz-border-radius: 4px 4px 0 0; -ms-border-radius: 4px 4px 0 0; -o-border-radius: 4px 4px 0 0; border-radius: 4px 4px 0 0; height: 42px; line-height: 40px; }
 .tab-nav > li > a:hover { text-decoration: none; background: whitesmoke; }
 .tab-nav > li > a:active { background: #ededed; }
 
@@ -1628,7 +1628,7 @@ label + .xnarrow:last-child, label + .narrow:last-child, label + .normal:last-ch
 .image { line-height: 0; margin-bottom: 20px; }
 .image.circle { -webkit-border-radius: 50% !important; -moz-border-radius: 50% !important; -ms-border-radius: 50% !important; -o-border-radius: 50% !important; border-radius: 50% !important; overflow: hidden; width: auto; }
 .image.rounded { overflow: hidden; -webkit-border-radius: 4px 4px; -moz-border-radius: 4px 4px; -ms-border-radius: 4px 4px; -o-border-radius: 4px 4px; border-radius: 4px 4px; }
-.image.photo { border: 5px solid #fff; -webkit-box-shadow: 0 0 1px #555555; -moz-box-shadow: 0 0 1px #555555; box-shadow: 0 0 1px #555555; }
+.image.photo { border: 5px solid #fff; -webkit-box-shadow: 0 0 1px #dff0f5; -moz-box-shadow: 0 0 1px #dff0f5; box-shadow: 0 0 1px #dff0f5; }
 .image.photo.polaroid { padding-bottom: 50px; background: #fff; }
 
 /* Video */
@@ -1682,4 +1682,12 @@ table.rounded thead th, table.rounded thead td, table.rounded caption + tbody tr
 
 .ie9 .radio.checked i, .ie9 .checkbox.checked i { top: 0; }
 
-body { background-image: url("img/chevron.gif"); background-repeat: repeat; }
+body { background-image: url("../img/chevron.gif"); background-repeat: repeat; }
+
+.page-wrap { min-height: 100%; margin-bottom: -90px; }
+
+.page-wrap:after { content: ""; display: block; }
+
+footer, .page-wrap:after { height: 90px; }
+
+.social { float: left; }
